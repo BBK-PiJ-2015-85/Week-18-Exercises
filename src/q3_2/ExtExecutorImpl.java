@@ -15,6 +15,7 @@ public class ExtExecutorImpl extends ExecutorImpl implements Executor {
         return tasks.size() * 1000;
     }
 
+
     public static void main(String[] args) {
         ExtExecutorImpl ex = new ExtExecutorImpl(new Task());
         for (int i = 0; i < 10; i++) {
